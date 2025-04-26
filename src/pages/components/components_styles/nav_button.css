@@ -1,0 +1,11 @@
+.navButton {
+    width: 90%;
+    margin: 5%;
+    font-weight: 70%;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    gap: 0.2rem;
+    cursor: pointer;
+}

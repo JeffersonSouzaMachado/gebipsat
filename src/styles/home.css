@@ -16,16 +16,40 @@ body,
 }
 
 .leftColumn {
-  flex: 1;
-  background-color: green;
+  flex: 1.5;
+  background-color: rgba(2, 43, 6, 0.993);
 }
 
 .centerColumn {
   flex: 3;
-  background-color: yellow;
+  background-color: rgb(49, 80, 48);
 }
 
 .rightColumn {
   flex: 1;
-  background-color: red;
+  background-color: rgba(2, 43, 6, 0.993);
+}
+
+.sidebar-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  background-color: #3b82f6;
+  /* azul */
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.sidebar-button:hover {
+  background-color: #2563eb;
+  /* azul mais escuro */
+}
+
+.sidebar-button .icon {
+  width: 20px;
+  height: 20px;
 }
