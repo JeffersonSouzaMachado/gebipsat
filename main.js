@@ -10,8 +10,8 @@ let mainWindow;
 
 function createWindow() {
     mainWindow = new BrowserWindow({
-        width: 800,
-        height: 600,
+        width: 1280,
+        height: 720,
         webPreferences: {
             nodeIntegration: true,
             preload: `${__dirname}/preload.js` // Usando __dirname agora

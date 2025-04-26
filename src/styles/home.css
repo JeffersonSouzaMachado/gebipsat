@@ -16,8 +16,9 @@ body,
 }
 
 .leftColumn {
-  flex: 1.5;
+  flex: 1.2;
   background-color: rgba(2, 43, 6, 0.993);
+  justify-items: center;
 }
 
 .centerColumn {
