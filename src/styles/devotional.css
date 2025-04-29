@@ -1,0 +1,53 @@
+html,
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+#main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#body {
+    display: flex;
+    padding-left: 0rem;
+    flex-direction: column;
+}
+
+#headTitle {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+#inputArea {
+    padding-left: 50px;
+    padding-right: 50px;
+    flex-direction: column;
+    display: flex;
+}
+
+#devotionalTitle {
+    width: 600px;
+    height: 22px;
+    resize: none;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+#devotionalSubtitle {
+    width: 600px;
+    height: 22px;
+    resize: none;
+    margin-bottom: 20px;
+}
+
+#devotionalInput {
+    width: 600px;
+    height: 400px;
+    resize: vertical;
+}

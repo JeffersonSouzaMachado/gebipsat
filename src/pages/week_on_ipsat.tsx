@@ -7,7 +7,9 @@ function WeekOnIpsat() {
         <>
             <div id="main">
                 <HeadBar />
-                <h2>Semana na IPSat</h2>
+                <div id="body">
+                    <h2>Semana na IPSat</h2>
+                </div>
             </div>
         </>
     )

@@ -1,4 +1,4 @@
-import { BookCheck, CalendarDays, CalendarRange, HandCoins, Handshake, Megaphone, PartyPopperIcon, Phone, UserCog } from 'lucide-react';
+import { BookCheck, BookHeart, CalendarDays, CalendarRange, HandCoins, Handshake, Megaphone, PartyPopperIcon, Phone, UserCog } from 'lucide-react';
 import '../styles/home.css'
 import NavButton from './components/nav_button';
 
@@ -11,6 +11,7 @@ function Home() {
 
                 <div className="leftColumn">
                     <p>Atalhos</p>
+                    <NavButton label='Devocional da Semana' to='/devotional' icon={BookHeart} />
                     <NavButton label='Semana na IPSat' to='/weekOnIpsat' icon={CalendarDays} />
                     <NavButton label='Avisos' to='/notices' icon={Megaphone} />
                     <NavButton label='Serviços dos Cultos' to='/cultServices' icon={UserCog} />
