@@ -1,7 +1,9 @@
 .headDiv {
     background-color: rgba(2, 43, 6, 0.993);
-    width: 100%;
-
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
 }
 
 .headBar {
@@ -11,4 +13,5 @@
     border: none;
     width: 20%;
     margin: 1%;
+
 }

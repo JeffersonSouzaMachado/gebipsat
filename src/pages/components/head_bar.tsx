@@ -6,7 +6,6 @@ import { DataAtual } from "./date";
 const HeadBar = () => {
     const navigate = useNavigate();
 
-    const actualData = DataAtual;
 
     return <div className="headDiv">
         <button
@@ -14,7 +13,7 @@ const HeadBar = () => {
             Voltar para Home
         </button>
 
-        <div>{actualData}</div>
+        <DataAtual />
     </div>
 }
 

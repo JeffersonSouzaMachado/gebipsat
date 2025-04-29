@@ -1,12 +1,3 @@
-html,
-body,
-#root {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  width: 100%;
-}
-
 .mainColumn {
   display: flex;
   justify-content: space-between;
@@ -29,6 +20,13 @@ body,
 .rightColumn {
   flex: 1;
   background-color: rgba(2, 43, 6, 0.993);
+  justify-items: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.warnings {
+  font-weight: bold;
 }
 
 .sidebar-button {

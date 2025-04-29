@@ -8,7 +8,7 @@ export default function Login() {
     return (
         <>
 
-            <div>
+            <div id='loginHome'>
                 <img src={ipLogo} className="logo ip" alt="Logo da Igreja Presbiteriana" />
             </div>
             <h2 className='head-title'>Gerenciador Eletronico do Boletim IPSat</h2>

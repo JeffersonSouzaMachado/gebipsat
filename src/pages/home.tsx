@@ -24,7 +24,10 @@ function Home() {
                 <div className="centerColumn">
                     <p>Coluna Central</p>
                 </div>
-                <div className="rightColumn">Coluna Direita</div>
+                <div className="rightColumn">Boletins Anteriores
+                    <p className='warnings'>Ainda não possui outros boletins publicados</p>
+                </div>
+
             </div>
         </>
     )
