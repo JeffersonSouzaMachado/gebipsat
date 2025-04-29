@@ -1,54 +1,35 @@
-# React + TypeScript + Vite
+# Gerenciador de boletim eletrônico da Igreja Presbiteriana do Jardim Satélite em São José dos Campos.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+O “GEB IPSAT - Gerenciamento Eletrônico do Boletim da IPSat” é o novo gerenciador do boletim IPSat, através dele é possível atualizar os boletins semanalmente gerando um arquivo para impressão e salvando no banco de dados para o aplicativo.
 
-## Expanding the ESLint configuration
+O GBIPSAT será administrado a princípio pelo PB. Alexandre, que é atualmente o responsável pela edição do boletim semanal, ele terá um cadastro exclusivo, e possivelmente outros membros do conselho também.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+A seguir uma breve descrição das funcionalidades do GEB:
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+1 - Login: o login será realizado toda vez ao acessar o programa, e seria previamente cadastrado pelo administrador do programa.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+2 - Tela Inicial: A Tela Inicial será dividida por 3 colunas principais:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- A primeira à direita,  é onde constará todos os atalhos para cada seção do Boletim, todos com ícones e nomes, eles serão descritos na seção XXXX.
+- A segunda coluna é a do meio, que constará os botões para  novo boletim e editar último boletim.
+- Na terceira coluna constará os últimos 10 boletins publicados com links para acessá-lo e realizar impressão.
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+Depois que um boletim for publicado, não será possível excluir e a edição será limitada.
+
+Dos atalhos:
+
+Após o login, o usuário será direcionado para a tela inicial, chamada “home” onde haverá 3 colunas, na primeira coluna a esquerda, serão dispostos os atalhos para todas as operações de edição do boletim, iniciando com:
+
+- 
+
+Dos botões:
+
+Dos boletins publicados:
+
+Do banco de dados:
+
+Da tecnologia:
+
+Da atualização:
