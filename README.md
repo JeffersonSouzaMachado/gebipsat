@@ -4,7 +4,7 @@
 
 O “GEB IPSAT - Gerenciamento Eletrônico do Boletim da IPSat” é o novo gerenciador do boletim IPSat, através dele é possível atualizar os boletins semanalmente gerando um arquivo para impressão e salvando no banco de dados para o aplicativo.
 
-O GBIPSAT será administrado a princípio pelo PB. Alexandre, que é atualmente o responsável pela edição do boletim semanal, ele terá um cadastro exclusivo, e possivelmente outros membros do conselho também.
+O GBIPSAT será administrado a princípio pelo presbítero responsável, que é atualmente o responsável pela edição do boletim semanal, ele terá um cadastro exclusivo, e possivelmente outros membros do conselho também.
 
 A seguir uma breve descrição das funcionalidades do GEB:
 
